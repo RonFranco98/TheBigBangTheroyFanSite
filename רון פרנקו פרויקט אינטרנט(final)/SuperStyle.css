@@ -1,0 +1,176 @@
+body{
+	overflow:hidden;
+	margin:0;
+}
+.boxes{
+	width:8000px;
+	height:8000px;
+	color:white;
+	padding-left:25%;
+	padding-top:20%;
+}
+#box1{
+	background-color:#FF5C33;
+}
+#box2{
+	background-color:#0099FF;
+}
+#box3{
+	background-color:#66FF66;
+}
+#box4{
+	background-color:#8080FF;
+}
+#box5{
+	background-color:#FFFF99;
+}
+#a1{
+	position:fixed;
+	top:40%;
+	left:95%;
+	display:block;
+	opacity:0.8;
+	color:white;
+	background-color:black;
+	width:50px;
+	height:30px;
+	text-align:center;
+	border-radius:50%;
+	-webkit-transition: background-color 1s;
+}
+#a2{
+	position:fixed;
+	top:45%;
+	left:95%;
+	display:block;
+	opacity:0.8;
+	color:white;
+	background-color:black;
+	width:50px;
+	height:30px;
+	text-align:center;
+	border-radius:50%;
+	-webkit-transition: background-color 1s;
+}
+
+#a3{
+	position:fixed;
+	top:50%;
+	left:95%;
+	display:block;
+	opacity:0.8;
+	color:white;
+	background-color:black;
+	width:50px;
+	height:30px;
+	text-align:center;
+	border-radius:50%;
+	-webkit-transition: background-color 1s;
+}
+
+#a4{
+	position:fixed;
+	top:55%;
+	left:95%;
+	display:block;
+	opacity:0.8;
+	color:white;
+	background-color:black;
+	width:50px;
+	height:30px;
+	text-align:center;
+	border-radius:50%;
+	-webkit-transition: background-color 1s;
+}
+#a5{
+	position:fixed;
+	top:60%;
+	left:95%;
+	display:block;
+	opacity:0.8;
+	color:white;
+	background-color:black;
+	width:50px;
+	height:30px;
+	text-align:center;
+	border-radius:50%;
+	-webkit-transition: background-color 1s;
+}
+#a1:hover{
+	background-color:green;
+}
+#a2:hover{
+	background-color:green;
+}
+#a3:hover{
+	background-color:green;
+}
+#a4:hover{
+	background-color:green;
+}
+#a5:hover{
+	background-color:green;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+h1{
+	font-size:300%;
+	text-decoration:underline;
+}
+p{
+	width:750px;
+}
+#quiz_ans {
+    color:green;
+    font-size:2em;
+}
+#logout
+{
+    color:white;
+    position:fixed;
+    top:10px;
+    left:10px;
+}
+/*card flip css function*/
+.flip3D{
+    width:325px;
+    height: 390px;
+    border-radius: 12px;
+    float:left;
+    margin:10px;
+	border: 3px solid black;
+}
+.front{
+    position: absolute;
+    width:325px;
+    height: 390px;
+    -webkit-transform: rotateY(0deg) perspective(600px);
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+	border-radius: 12px;
+}
+.flip3D:hover > .front{
+    -webkit-transform: rotateY(-180deg) perspective(600px);
+}
+.back{
+    position: absolute;
+    width:325px;
+    height: 390px;
+    -webkit-transform: rotateY(180deg) perspective(600px);
+    backface-visibility: hidden;
+    background-color: #0099FF;
+    -webkit-transition: 1s;
+    text-align:center;
+    color:white;
+	border-radius: 12px;
+}
+.flip3D:hover > .back{
+    -webkit-transform: rotateY(0deg) perspective(600px);
+}
+img{
+    width:325px;
+    height: 390px;
+	border-radius: 12px;
+}
